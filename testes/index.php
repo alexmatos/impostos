@@ -13,6 +13,7 @@ function autoload($class) {
 spl_autoload_register("autoload");
 //spl_autoload_register("autoload2");
 
+echo '*********************************************************';
 $orcamento1 = new Orcamento(500);
 $calculadora = new CalculadoraDeImpostos();
 
