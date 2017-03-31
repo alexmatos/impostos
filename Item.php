@@ -2,7 +2,7 @@
 class Item {
 	private $nome;
 	private $valor;
-
+       
 	function __construct($nome, $valor) {
 		$this->nome = $nome;
 		$this->valor = $valor;

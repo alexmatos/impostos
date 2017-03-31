@@ -1,7 +1,9 @@
 <?php
 
+require 'ItemBuilder.php';
+
 function importa($classe) {
-    require '../Descontos/' . $classe . '.php';
+    require 'NotasFiscais/' . $classe . '.php';
 }
 
 spl_autoload_register('importa');
